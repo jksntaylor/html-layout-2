@@ -1,0 +1,428 @@
+* {
+    box-sizing: border-box;
+}
+
+header {
+    background-image: url(https://barbiereslc.com/img/shopwall.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 115vh;
+    position: relative;
+    top: -97px;
+    margin-bottom: -97px;
+}
+
+nav {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    background-color: #F4FAF8;
+    height: 6vh;
+    color: #3B4650;
+}
+
+nav ul {
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Krub', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+nav h1 {
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    font-size: 26px;
+    letter-spacing: 7px;
+}
+
+.jumbotron {
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    height: 65%;
+    padding-top: 150px;
+    justify-content: center;
+    align-items: center;
+}
+
+.jumbotron h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 92px;
+    color: #3B4650;
+    letter-spacing: 5px;
+    border: 12px solid #3B4650;
+    display: inline;
+    text-align: center;
+    padding: 20px 0px;
+    width: 35%;
+    margin-bottom: 20px;
+}
+
+.jumbotron h2 {
+    font-family: 'Raleway', sans-serif;
+    color: #3B4650;
+    font-size: 30px;
+    letter-spacing: 25px;
+    margin-bottom: 90px;
+}
+
+.jumbotron button {
+
+    height: 13%;
+    width: 23%;
+    margin-top: 30px;
+    font-size: 22px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    background-color: #E6F2EE;
+    color: #3B4650;
+    border: none;
+}
+.definition-container {
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    background-color: #E9F2EE;
+}
+.definition {
+    height: 100%;
+    background-color: #E9F2EE;
+    font-family: sans-serif;
+    color: #3B4650;
+    font-size: 18px;
+    font-weight: 100;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: right;
+}
+
+.bold {
+    font-weight: 800;
+}
+
+.about {
+    height: 110vh;
+    background-color: #F4FAF8;
+}
+
+.about h1 {
+    height: 15%;
+    font-family: 'Raleway', sans-serif;
+    color: #3B4650;
+    font-size: 26px;
+    font-weight: 100;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding-bottom: 20px; 
+}
+
+.about-line {
+    height: 3%;
+    display: flex;
+    justify-content: center;
+}
+
+.line {
+    background-color: #3B4650;
+    height: 3px;
+    width: 3%;
+}
+.about-content {
+    display: flex;
+    height: 80%;
+    justify-content: center;
+}
+
+.about-image {
+    width: 40%;
+    padding-left: 5%;
+    padding-right: 5%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image {
+    width: 100%;
+    height: 100%;
+    background-image: url(https://barbiereslc.com/img/chairs.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-content-left {
+    width: 40%;
+    padding-left: 10%;
+}
+
+.about-info span {
+    font-weight: bold;
+}
+
+.about-info {
+    font-family: sans-serif;
+    color: #3B4650;
+    line-height: 25px;
+}
+
+.about-info-bio {
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    margin-bottom: 50px;
+}
+
+.about-info-phone, .about-info-hours, .about-info-address {
+    margin-bottom: 20px;
+}
+
+.map {
+    height: 35%;
+    background-image: url(./map.png);
+    background-repeat: no-repeat;
+}
+
+.applications {
+    height: 5vh;
+    font-family: sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    background-color: #E9F2EE;
+    align-items: center;
+}
+
+.appointments {
+    height: 90vh;
+    background-color: #3B4650;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 26px;
+}
+
+.appointment-line {
+    display: flex;
+    justify-content: center;
+    height: 5%;
+    align-items: center;
+}
+
+.line2 {
+    background-color: white;
+    height: 7%;
+    width: 4%;
+}
+
+.appointments h1 {
+    height: 20%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.appointments-scroll-container {
+    width: 100%;
+    height: 75%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.appointments-scroll {
+    height: 80%;
+    width: 45%;
+    background-color: #F1F1F1;
+    overflow: scroll;
+}
+
+.appt-name {
+    font-family: sans-serif;
+    color: #78CEDE;
+    font-size: 16px;
+    border-bottom: 1px solid #E3E5E7;
+    padding: 15px;
+    margin-bottom: 5px;
+}
+
+.appt-serviceButton {
+    color: #78CEDE;
+    font-family: sans-serif;
+    font-size: 18px;
+    background-color: white;
+    display: inline;
+    border: 1px solid #78CEDE;
+    padding: 3px;
+    border-radius: 3px;
+    margin: 10px;
+}
+
+.your-visit {
+    color: #404040;
+    font-family: sans-serif;
+    justify-content: center;
+}
+
+.your-visit h1 {
+    justify-content: right;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.your-visit-box {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 1px 1px #E3E5E7;
+
+}
+
+.your-visit-box h1 {
+    font-size: 12px;
+    color: #BCBCBC;
+}
+
+.no-services {
+    background-color: #E3E5E7;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+.appt-container {
+    width: 90%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.other h1 {
+    justify-content: right;
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: #404040;
+    font-family: sans-serif;
+    margin-top: 20px;
+}
+
+.other-box {
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 1px 1px #E3E5E7;
+    margin-bottom: 20px;
+    color: black;
+}
+
+.other-service {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #E3E5E7;
+    padding: 20px;
+    align-items: center;
+}
+
+.other-services-left {
+    font-size: 18px;
+    font-family: sans-serif;
+    color: #3B4650;
+}
+
+.other-services-left h3 {
+    color: #BCBCBC;
+    font-size: 12px;
+    margin: 5px 0;
+}
+
+.add-to-visit {
+    background-color: #78CEDE;
+    height: 30px;
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+}
+
+.social {
+    background-color: #f4faf8;
+    height: 60vh;
+}
+
+.social h1 {
+    height: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    font-family: sans-serif;
+    font-size: 26px;
+    margin-bottom: 20px;
+    color: #3B4650;
+}
+
+
+.touch-line {
+    height: 3%;
+    display: flex;
+    justify-content: center;
+}
+
+.line3 {
+    background-color: #3B4650;
+    height: 3px;
+    width: 3%;
+}
+
+
+.icons-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+footer {
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 12px;
+    color: #BCBCBC;
+    background-color: #f4faf8;
+    border-top: 1px solid #BCBCBC;
+}
+
+i {
+    color: #3B4650;
+    margin: auto;
+    display: inline;
+    margin-bottom: 20px;
+}
+
+.icon-container-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.social h3 {
+    font-family: sans-serif;
+    color: #3B4650;
+}
+
+.fa-5x {
+    display: inline;
+    justify-content: center;
+}
